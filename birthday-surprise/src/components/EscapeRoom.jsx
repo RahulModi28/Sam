@@ -11,8 +11,8 @@ const questions = [
         title: 'The Name That Stayed',
         subtitle: 'Class 10th feels like yesterday...',
         question: 'Remember that name you used to call me?',
-        hint: 'It starts with S... like something magical ✨',
-        answers: ['snow white', 'snowwhite'],
+        hint: 'It starts with B...',
+        answers: ['Bhondu', 'bhondu'],
         emotionalResponse: 'You remembered! That name carries so many memories... 💕',
     },
     {
