@@ -22,7 +22,7 @@ const questions = [
         title: 'The Great Escape',
         subtitle: 'Latest Slang......',
         question: 'The latest slang you made and was very pround of it that you told aunty?',
-        answers: ['gand ka ched', 'gandkached'],
+        answers: ['gand ki ched', 'gandkiched'],
         emotionalResponse: 'Weirdo----------',
     },
     {
