@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+:root {
+    /* Escape Room Palette */
+    --dark-bg: #0a0a0f;
+    --dark-surface: #12121a;
+    --dark-card: rgba(18, 18, 26, 0.85);
+    --accent-violet: #8b5cf6;
+    --accent-violet-soft: rgba(139, 92, 246, 0.15);
+    --accent-rose: #f472b6;
+    --accent-amber: #f59e0b;
+    --text-bright: #f1f5f9;
+    --text-soft: #94a3b8;
+    --text-muted: #64748b;
+
+    /* Scrapbook Palette */
+    --cream: #f5efe6;
+    --warm-brown: #8b6f47;
+    --warm-brown-light: #c9a87c;
+    --page-bg: #fdfbf7;
+    --text-dark: #5a4a3a;
+    --text-warm: #7a6a5a;
+    --cover-dark: #5c2a2a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background: var(--dark-bg);
+    color: var(--text-bright);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.app {
+    min-height: 100vh;
+}
+
+::selection {
+    background: rgba(139, 92, 246, 0.3);
+    color: white;
+}
+
+/* Smooth scrollbar styling */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(139, 92, 246, 0.3);
+    border-radius: 3px;
+}
